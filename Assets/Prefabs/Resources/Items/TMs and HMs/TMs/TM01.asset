@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10841c4dcd54f2149bcc465d025fff51, type: 3}
+  m_Name: TM01
+  m_EditorClassIdentifier: 
+  name: TM01
+  description: A powerful fire attack that may burn the target.
+  icon: {fileID: 829756985, guid: 1f7e46d4360b1e440abfe5777ae2e42d, type: 3}
+  move: {fileID: 11400000, guid: af600d2cfcf5bbc4f92b3987ff772e4a, type: 2}
+  isHM: 0

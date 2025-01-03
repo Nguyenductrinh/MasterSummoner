@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 571186c06617ced438be809b1bea139b, type: 3}
+  m_Name: Antidote
+  m_EditorClassIdentifier: 
+  name: Antidote
+  description: An antidote for curing a poisoned Monster
+  icon: {fileID: 504441584, guid: bcc5017d462b50149a2be70d6e1b14c0, type: 3}
+  hpAmount: 0
+  restoreMaxHp: 0
+  ppHp: 0
+  restoreMinPP: 0
+  status: 1
+  recoveryAllStatus: 0
+  revive: 0
+  maxRevive: 0
