@@ -9,8 +9,11 @@ using UnityEngine.UI;
 
 public class MainMenuController : SelectionUI<TextSlot>
 {
+    [SerializeField] AudioClip tileMusic;
     private void Start()
     {
+        AudioManager.i.PlayMusic(tileMusic);
+
         var textSlots = GetComponentsInChildren<TextSlot>().ToList();
 
         if (SavingSystem.i.CheckIfSaveExists("SaveSlot1"))

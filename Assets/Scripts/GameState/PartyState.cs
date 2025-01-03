@@ -39,7 +39,6 @@ public class PartyState : State<GameController>
         partyScreen.OnSelected -= OnMonsterSelected;
         partyScreen.OnBack -= OnBack;
     }
-
     private void OnMonsterSelected(int selection)
     {
         SelectedMonster = partyScreen.SelectedMember;
